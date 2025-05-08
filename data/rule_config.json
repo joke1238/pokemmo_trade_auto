@@ -1,0 +1,28 @@
+{
+    "distribute_1": {
+        "price_ratio": 0.4,
+        "min_profit": 1000000
+    },
+    "distribute_2": {
+        "price_ratio": 0.5,
+        "min_profit": 40000
+    },
+    "distribute_3": {
+        "≤5000": {
+            "price_ratio": 0.8,
+            "min_profit": 2000
+        },
+        "5000~20000": {
+            "price_ratio": 0.7,
+            "min_profit": 5000
+        },
+        "20000~50000": {
+            "price_ratio": 0.8,
+            "min_profit": 6000
+        },
+        "≥50000": {
+            "price_ratio": 0.8,
+            "min_profit": 10000
+        }
+    }
+}
